@@ -1,6 +1,6 @@
 on run argv
-  set cmd to first item of argv
   tell application "iTunes"
+    set cmd to first item of argv
     if cmd = "next" then
       next track
     else if cmd = "prev" then
@@ -29,6 +29,8 @@ on run argv
       return played count of current track
     else if cmd = "playlist" then
       return name of current playlist
+    else
+      return "next prev forward back rewind play playpause pause stop name artist album count playlist"
     end if
   end tell
 end run
