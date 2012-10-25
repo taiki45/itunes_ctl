@@ -1,4 +1,8 @@
 #!/bin/bash
 if [ -f ~/.bash/itunes.scpt ]; then
-  echo `osascript ~/.bash/itunes.scpt $1`
+  if [ $1 ]; then
+    echo `osascript ~/.bash/itunes.scpt $1`
+  else
+    echo `osascript ~/.bash/itunes.scpt list`
+  fi
 fi
