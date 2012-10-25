@@ -6,6 +6,7 @@ OS X 10.6 or later
 
 ## Setup
 
+If you use bash
 ```sh
 git clone git://github.com/taiki45/itunes_ctl.git && cd itunes_ctl
 ./setup.sh
