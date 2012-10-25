@@ -6,9 +6,11 @@ OS X 10.6 or later
 
 ## Setup
 
-please read setup.sh what you do
+```sh
+./setup.sh
+```
 
-be careful for set permission
+be careful for setting permission
 
 ## Usage
 
