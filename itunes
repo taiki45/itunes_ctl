@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ -f ~/.bash/itunes.scpt ]; then
+  osascript ~/.bash/itunes.scpt $1
+fi
