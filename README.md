@@ -26,7 +26,7 @@ You can use commands below
 next prev forward back rewind play playpause pause stop name artist album count playlist
 ```
 
-this supports Bash completion
+This supports bash completion
 
 ## Author
 @taiki45
